@@ -1,3 +1,4 @@
+%% Returns the Laguerre-Gaussian beam with wavelength "lambda", beam waist "w0", at positions X,Y,Z, azimuthal and radial orders "m" and "p"
 function outoam=LGB(lambda,w0,x,y,Z,m,p)
 [phi,r]=cart2pol(x,y);
 k=2*pi/lambda;
